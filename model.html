@@ -1,0 +1,11 @@
+<script></script>
+    const yaml = require("js-yaml");
+    const fs = require("fs");
+
+    let yamlFile = fs.readFileSync("/priv/assets/products.yml", "utf8");
+    let loadedYaml = yaml.load(yamlFile);
+
+    console.log(loadedYaml);
+    console.log(loadedYaml.address);
+    console.log(loadedYaml.address.street);
+</script>
