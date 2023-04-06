@@ -1,0 +1,27 @@
+{
+  "name": "kantox",
+  "version": "1.0.0",
+  "description": "Kantox - QA Test v2.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavikan/kantox.git"
+  },
+  "keywords": [
+    "kantox",
+    "test",
+    "QA"
+  ],
+  "author": "Xavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavikan/kantox/issues"
+  },
+  "homepage": "https://github.com/xavikan/kantox#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
