@@ -7,4 +7,4 @@ INSTALL
 -------
 npm init
 npm install cypress --save-dev
-./node_modules/.bin/cypress open        // first run of cypress to set it up
+./node_modules/.bin/cypress open        // first run of Cypress to set it up, from 'kantox' root

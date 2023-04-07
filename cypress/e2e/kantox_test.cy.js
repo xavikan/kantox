@@ -26,8 +26,8 @@
     }) */
 
     describe('template spec', () => {
-        it('passes', () => {
-          cy.visit(".\model.html");
+        it('Basic test, low quantities, rule 1, 3 products', () => {
+            cy.get('tbody > :nth-child(2) > :nth-child(9)').
         })
       })
 //})
