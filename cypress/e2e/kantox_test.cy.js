@@ -25,9 +25,10 @@
 
     }) */
 
-    describe('template spec', () => {
+    describe('QA Test V2.1', () => {
+
         it('Basic test, low quantities, rule 1, 3 products', () => {
-            cy.visit("https://kantox-qa-test.000webhostapp.com/cart_rule1_10.html")
+            cy.visit("https://40610796.servicio-online.net/kantox/cart_rule1_10.html")
 
             cy.get('tbody > :nth-child(2) > :nth-child(1)').contains("GR1")
             cy.get('tbody > :nth-child(2) > :nth-child(2)').contains("Green Tea")
@@ -63,4 +64,11 @@
 
       })
 
+      it('Check products are loaded from YAML file', () => {
+        cy.visit("https://40610796.servicio-online.net/kantox/TEST000_2023-04-08T22_56_51.493955_rule0_N%3D3_pN%3D0.html")
+        cy.contains("Green Tea")
+        cy.contains("Strawberries")
+        cy.contains("Coffee")
+      })
+      
 })

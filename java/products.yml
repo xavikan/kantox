@@ -1,0 +1,25 @@
+products:
+  - product:
+      code: GR1
+      name: Green Tea
+      price: 3.11
+  - product:
+      code: SR1
+      name: Strawberries
+      price: 5.00
+  - product:
+      code: CF1
+      name: Coffee
+      price: 11.23
+  - product:
+      code: Banana
+      name: BN1
+      price: 1.5
+  - product:
+      code: CH1
+      name: Cherry
+      price: 3
+  - product:
+      code: CF1
+      name: Apple
+      price: 5.22

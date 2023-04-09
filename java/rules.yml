@@ -1,0 +1,3 @@
+1 ● FreeRule (buy N get N free)
+2 ● ReducedPriceRule (buy more than N pay a different price)
+3 ● FractionPriceRule (buy more than N, pay a percentage of the original price)
