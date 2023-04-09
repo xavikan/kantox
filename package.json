@@ -4,7 +4,8 @@
   "description": "Kantox - QA Test v2.1",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open --env updateSnapshots=",
+    "testrun": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
   },
   "homepage": "https://github.com/xavikan/kantox#readme",
   "devDependencies": {
-    "cypress": "^12.9.0"
+    "cypress": "^12.9.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "mocha": "^10.2.0",
+    "mochawesome-merge": "^4.3.0"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
