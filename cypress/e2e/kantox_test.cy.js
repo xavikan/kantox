@@ -112,7 +112,7 @@
         cy.visit("https://40610796.servicio-online.net/kantox/TEST1000products3_2023-04-09T00_16_21.424250_rule3_N=66_pN=100.html")
       })   
 
-      it('Check long names for products and preoduct codes can be entered', () => {
+      it('Check long names for products and poduct codes can be entered', () => {
         // deep scenarios should be built since real different product should have different product codes
         cy.visit("https://40610796.servicio-online.net/kantox/TEST_longnames_2023-04-09T10_41_27.216335_rule1_N=10_pN=100.html")
         cy.contains("BANANA00000000000000000000000000000000000000000000000000000000000000001")
