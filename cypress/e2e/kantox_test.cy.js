@@ -138,6 +138,8 @@
       cy.contains('Apple')
       cy.contains('Chocoloate')
       cy.contains('Smacks')
+      cy.contains('Salmon')
+      cy.contains('Carrot')
    }) 
 
 
