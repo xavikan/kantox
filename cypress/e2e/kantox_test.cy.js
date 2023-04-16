@@ -136,6 +136,8 @@
       cy.contains('Vodka')
       cy.contains('Cherry')
       cy.contains('Apple')
+      cy.contains('Chocoloate')
+      cy.contains('Smacks')
    }) 
 
 
