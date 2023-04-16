@@ -11,3 +11,4 @@ npm install cypress --save-dev
 (as well 'npm run test' <-- inside kantox folder)
 install mochawesome --> npm i --save-dev cypress-mochawesome-reporter
 npx cypress run
+npx cypress run --record --key 3100e4a5-6261-4172-888a-000285d5b466

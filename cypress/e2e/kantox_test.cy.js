@@ -130,6 +130,13 @@
         cy.visit("https://40610796.servicio-online.net/kantox/TEST_randomRule_many_2023-04-09T10_21_06.599334_ruleR_N=10_pN=100.html")
      }) 
 
+     it('Added + Products...', () => {
+      cy.visit("https://40610796.servicio-online.net/kantox/cart_9068.671271959483_rule123_N=10_pN=100.html")
+      cy.contains('Carrot')
+      cy.contains('Vodka')
+      cy.contains('Cherry')
+      cy.contains('Apple')
+   }) 
 
 
 })

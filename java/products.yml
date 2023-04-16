@@ -20,6 +20,34 @@ products:
       name: Cherry
       price: 3
   - product:
-      code: CF1
+      code: APP
       name: Apple
       price: 5.22
+  - product:
+      code: KW1
+      name: Kiwi
+      price: 6.9999
+  - product:
+      code: CH2
+      name: Chocolate
+      price: 4.333
+  - product:
+      code: RI1
+      name: Rice
+      price: 5.22
+  - product:
+      code: VDK
+      name: Vodka
+      price: 1.55
+  - product:
+      code: SM1
+      name: Smacks
+      price: 2.54
+  - product:
+      code: SA1
+      name: Salmon
+      price: 10.89
+  - product:
+      code: CA1
+      name: Carrot
+      price: 2

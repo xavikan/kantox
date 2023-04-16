@@ -25,9 +25,10 @@ public class readYML {
             int discount = -3;
             int Rule = 1; // rule is finally randomized for each product
             int pN = 100; // max product set for product, used to randomize each run each product.pN
-            brReader = new BufferedReader(new FileReader("products.yml"));
+            brReader = new BufferedReader(new FileReader("kantox/java/products.yml"));
             LocalDateTime now = LocalDateTime.now();
-            htmlWriter = new FileWriter("cart_"+now.toString()+"_rule" + Rule + "_N=" + N + "_pN=" + pN + ".html", false);
+            String filepath= "cart_"+ Math.random()*10000 +"_rule" + Rule + "_N=" + N + "_pN=" + pN + ".html";
+            htmlWriter = new FileWriter(filepath, false);
             
             String line;
 
@@ -96,7 +97,7 @@ total=0;
                     System.out.println(p.name);
                     System.out.println(p.price);
                     p.n = (int) (pN*Math.random());
-                    p.rule=((int) (Math.random()*(3))+1);
+                    p.rule=((int) (Math.random()*3)+1);
 
                     switch (p.rule) {
                         case 1: p.free=Math.floorDiv(p.n,N)*N;
