@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open --env updateSnapshots=",
-    "testrun": "cypress run"
+    "testrun": "cypress run",
+    "cypresscloud": "npx cypress run --record --key 3100e4a5-6261-4172-888a-000285d5b466"
   },
   "repository": {
     "type": "git",

@@ -106,6 +106,7 @@ total=0;
                             break;
                         case 2: if (p.n>N) {
                                                 p.newPrice=(p.price-3);
+                                                if (p.newPrice<=0) p.newPrice=p.price/10;
                                                 p.discount=discount;
                                                 p.subtotal = p.newPrice*(p.n);
                                             }
